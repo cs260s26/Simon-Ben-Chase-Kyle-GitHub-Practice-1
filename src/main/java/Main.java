@@ -22,6 +22,42 @@ public class Main {
         System.out.println("Your mother. Go to sleep.");
     }
 
+    public static void knockKnock2() {
+        System.out.println("Knock Knock.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Whose there?");
+
+        try {
+            Thread.sleep(2500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Chicken.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Chicken what?");
+
+        try {
+            Thread.sleep(2500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Chicken butt :)");
+    }
+
     public static void knickKnack() {
         System.out.println("Why is 6 afraid of 7");
         try {
@@ -36,10 +72,10 @@ public class Main {
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
-        System.out.println("Because its between 9/11.")
+        System.out.println("Because its between 9/11.");
     }
 
-    public static void Tictak()
+    public static void tictak()
     {
         System.out.println("What TikTok famous food reviewer left the city of Atlanta in shambles?");
 
@@ -88,6 +124,7 @@ public class Main {
         knickKnack();
         tictak();
         KoreanDadJoke();
+        knockKnock2();
     }
 
 
